@@ -25,6 +25,6 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=["pandas", "openpyxl"],
+    install_requires=["requests", "packaging", "beautifulsoup4"],
     python_requires='>=3.6'
 )

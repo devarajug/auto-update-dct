@@ -20,7 +20,7 @@ tool_path = "D:\\path to dependency check tool\\bin\\dependency-check.sh"  #Linu
 check = CheckUpdateVersionOfDCT(_path = tool_path)
 
 # if you are in behind corporate proxy
-
+'''
 check = CheckUpdateVersionOfDCT(
     _path = tool_path,
     proxy_name = 'proxy.company.com',
@@ -28,7 +28,7 @@ check = CheckUpdateVersionOfDCT(
     proxy_user = 'proxyusername',
     proxy_pass = 'XXXXX'
 )
-
+'''
 check.versionCheck()
 ```
 
