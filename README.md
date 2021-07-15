@@ -4,9 +4,9 @@ The utility helps you to automatically update the `Dependency Check Tool` when t
 # Installation
 You can install by using following command
 ```
-**pip install auto-update-dct** 
+```**```pip install auto-update-dct```**``` 
 
-__pip install auto-update-dct --user__
+```__```pip install auto-update-dct --user```__```
 ```
 if `pip` is not working then try using `pip3`
 
