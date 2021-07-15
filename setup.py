@@ -25,6 +25,6 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     include_package_data=True,
-    install_requires=["requests", "packaging", "beautifulsoup4"],
+    install_requires=["requests", "packaging", "beautifulsoup4", "lxml"],
     python_requires='>=3.6'
 )
