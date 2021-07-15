@@ -10,7 +10,7 @@ README = (BASE / "README.md").read_text()
 #This call to setup does all the work
 setuptools.setup(
     name="auto-update-dct",
-    version="1.0.0",
+    version="1.0.1",
     deecription="automatically updated dependency check tool version if new version is available in web",
     long_description=README,
     long_description_content_type="text/markdown",
