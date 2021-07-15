@@ -81,9 +81,3 @@ class CheckUpdateVersionOfDCT:
             sys.exit(e)
 
         return ""
-
-
-if __name__ == "__main__":
-    
-    check = CheckUpdateVersionOfDCT()
-    check.versionCheck()
